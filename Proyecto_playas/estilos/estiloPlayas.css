@@ -1,0 +1,75 @@
+body {
+    font-family: Century Gothic, arial, sans-serif;
+    font-size: 1.5em;
+    background-color: #A9F2FF;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, Century Gothic, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    background-color: #10DCFF;
+}
+
+p {
+    text-align: center;
+}
+
+.excepcion {
+    text-align: left;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+tbody td:nth-child(even) {
+    background-color: #8DEEFF;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 0.3em;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.3em;
+    background-color: #8DEEFF
+}
+
+a {
+    color: #0d0452;
+}
+
+a:hover {
+    color: #A9F2FF;
+    background-color: #086E7F;
+    letter-spacing: 2px;
+}
+
+.normal:hover {
+    color: #A9F2FF;
+    background-color: #086E7F;
+    letter-spacing: inherit;
+}
+
+em {
+    text-decoration: underline;
+    font-weight: bold;
+}
+span.hora {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
